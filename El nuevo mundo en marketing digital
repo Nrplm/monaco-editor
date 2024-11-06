@@ -1,0 +1,56 @@
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Digital</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #ff6f61; /* Color mamey suave */
+        }
+        p {
+            color: #333;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #ff6f61; /* Color mamey suave */
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #e65c50; /* Color mamey un poco más oscuro */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Bienvenido al Marketing Digital</h1>
+    <p>Descubre estrategias efectivas para potenciar tu negocio en línea.</p>
+    <button onclick="mostrarMensaje()">Click aquí para aprender más</button>
+
+    <script>
+        function mostrarMensaje() {
+            alert("¡Explora cómo el marketing digital puede transformar tu negocio!");
+        }
+    </script>
+
+</body>
+</html>
+```
+
+### Explicación
+
+1. **Título**: Se establece como "Marketing Digital".
+2. **Color mamey**: Se aplica a los encabezados y botones en un tono suave.
+3. **Mensaje**: Al hacer clic en el botón, se muestra un mensaje sobre el marketing digital.
